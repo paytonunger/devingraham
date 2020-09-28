@@ -1,0 +1,33 @@
+baseURL = "https://paytonunger.github.io/devingraham"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Devin Graham"
+theme = "dimension"
+# googleAnalytics = "UA-123-45"
+
+[params]
+    author = "Devin Graham"
+    description = "Devin Graham Portfolio"
+    copyrightPublishYear = ""
+    copyrightText = ""
+
+    # disableLogo = false
+    logoImage = "logo.png"
+    # logoIcon = "gem"
+    # titleFontSize = "2.25rem"
+    # subtitleFontSize = "0.8rem"
+    # baseFontSize = "1.0rem"
+    # overlayOpacityPercentage = "50"
+    # disableImageOverlay = false
+    # modalWidth = "40rem"
+
+    # customCSS = "custom.css"
+
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        weight = 1
+
+[permalinks]
+    "" = "/#:filename"
